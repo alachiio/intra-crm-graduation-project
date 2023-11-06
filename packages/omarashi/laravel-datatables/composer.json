@@ -1,0 +1,26 @@
+{
+    "name": "omarashi/laravel-datatables",
+    "description": "Laravel Datatables Package depending on eluquent pagination",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omarashi\\LaravelDatatables\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Omarashi\\LaravelDatatables\\LaravelDatatablesServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar Alashi",
+            "email": "omer.alachi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
